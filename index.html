@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Talentera</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <i class="fa fa-fw fa-home"></i>
+        <a class="active" href="#">Logo</a>
+      </div>
+      <div class="navbar-links">
+        <a class="fonts space" href="#team">Team</a>
+        <a class="fonts space" href="#work">Work</a>
+        <a class="fonts space" href="#price">Price</a>
+        <a class="fonts space" href="#contact">Contact</a>
+        <div class="dropdown">
+          <a href="#" class="dropbtn fonts space-this">Dropdown</a>
+          <i class="fa fa-caret-down fonts"></i>
+          <div class="dropdown-content">
+            <a class="fonts" href="#">Link 1</a>
+            <a class="fonts" href="#">Link 2</a>
+            <a class="fonts" href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+      <div class="search">
+        <i class="fa fa-fw fa-search"></i>
+      </div>
+      <div class="hamburger-icon">&#9776;</div>
+    </nav>
+    <header>
+      <div class="image-container">
+        <img class="desert-img" src="desert.jpg" alt="desert image" />
+        <div class="image-overlay">
+          <p>Talentera</p>
+        </div>
+      </div>
+    </header>
+    <div class="container" id="team">
+      <div class="section">
+        <h2>OUR TEAM</h2>
+        <p>Meet the team - our office rats:</p>
+      </div>
+      <div class="image-section">
+        <div class="image-box">
+          <img src="Rizwan.jpg" alt="Image 1" />
+          <h3>Person A</h3>
+          <p>Web Developer</p>
+        </div>
+        <div class="image-box">
+          <img src="Rizwan.jpg" alt="Image 2" />
+          <h3>Person B</h3>
+          <p>Support</p>
+        </div>
+        <div class="image-box">
+          <img src="Rizwan.jpg" alt="Image 3" />
+          <h3>Person C</h3>
+          <p>Boss Man</p>
+        </div>
+        <div class="image-box">
+          <img src="Rizwan.jpg" alt="Image 4" />
+          <h3>Person D</h3>
+          <p>Fixer</p>
+        </div>
+      </div>
+    </div>
+    <div class="main-container" id="work">
+      <div class="first-div">
+        <h2>Our Work</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam odio
+          augue, pulvinar sit amet erat at, hendrerit mattis arcu. Praesent
+          placerat blandit est quis facilisis. Donec ut lorem nisi. Nam
+          condimentum cursus lectus ac dignissim. Vivamus sollicitudin lacus ex,
+          et convallis eros tristique nec. Praesent gravida fringilla tempus.
+          Nam blandit, sapien in commodo congue, sapien neque aliquet ipsum,
+          dictum dictum ipsum magna in risus. Nunc tincidunt sem at augue
+          malesuada suscipit. Aenean neque nisi, molestie vel dictum ut,
+          interdum vitae massa. Integer tempus fringilla libero sed lacinia. Sed
+          a erat tempus, aliquam lectus ac, scelerisque augue. Nam vitae
+          scelerisque justo. Mauris ac nisl nec neque eleifend egestas eu ut
+          ligula.
+        </p>
+      </div>
+      <div class="overlay-container">
+        <div class="column-container">
+          <div class="image-box1">
+            <img src="desert.jpg" alt="Image 1" />
+          </div>
+          <h3>Customer 1</h3>
+          <h4>Trade</h4>
+          <p>Paragraph</p>
+          <p>Paragraph</p>
+          <p>Paragraph</p>
+          <p class="last-p">Paragraph</p>
+        </div>
+        <div class="column-container">
+          <div class="image-box1">
+            <img src="desert.jpg" alt="Image 2" />
+          </div>
+          <h3>Customer 2</h3>
+          <h4>Trade</h4>
+          <p>Paragraph</p>
+          <p>Paragraph</p>
+          <p>Paragraph</p>
+          <p class="last-p">Paragraph</p>
+        </div>
+        <div class="column-container">
+          <div class="image-box1">
+            <img src="desert.jpg" alt="Image 3" />
+          </div>
+          <h3>Customer 3</h3>
+          <h4>Trade</h4>
+          <p>Paragraph</p>
+          <p>Paragraph</p>
+          <p>Paragraph</p>
+          <p class="last-p">Paragraph</p>
+        </div>
+      </div>
+    </div>
+    <div class="outside-container" id="contact">
+      <i class="fa-solid fa-circle-plus fa-2xl" style="color: #20b2aa"></i>
+      <i class="fa-solid fa-square-caret-up fa-2xl" style="color: #010906"></i>
+      <div class="left-container">
+        <h3>Contact Us</h3>
+        <h4>Address</h4>
+        <p>Swing by for a cup of coffee, or whatever.</p>
+        <p>
+          <i class="fa-solid fa-location-dot" style="color: #20b2aa"></i>Amman,
+          Jordan
+        </p>
+        <p>
+          <i class="fa-solid fa-phone" style="color: #20b2aa"></i>+962790000
+        </p>
+        <p>
+          <i class="fa-regular fa-envelope" style="color: #20b2aa"></i
+          >test@test.com
+        </p>
+      </div>
+      <div class="right-container">
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message</label>
+          <input type="text" id="message" name="message" required />
+          <div class="align-row">
+            <input type="checkbox" id="like" name="like" />
+            <label for="like">I like it</label>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <h5>Follow Us</h5>
+      <div class="last-div">
+        <i
+          class="fa-brands fa-square-facebook fa-xl"
+          style="color: #20b2aa"
+        ></i>
+        <i class="fa-brands fa-square-twitter fa-xl" style="color: #20b2aa"></i>
+        <i
+          class="fa-brands fa-square-google-plus fa-xl"
+          style="color: #20b2aa"
+        ></i>
+        <i
+          class="fa-brands fa-square-instagram fa-xl"
+          style="color: #20b2aa"
+        ></i>
+        <i class="fa-brands fa-linkedin fa-xl" style="color: #20b2aa"></i>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
